@@ -1,0 +1,168 @@
+button {
+    font-family: PTSans;
+}
+
+.main {
+    background: #000 url('./images/background-image.png') 0 70px / 100% 50% no-repeat;
+    color: #fff;
+}
+
+.footer {
+    background: #252525;
+}
+
+.container {
+    padding: 30px 15%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+}
+
+.advantages, .photo-news, .contact-info, .main-logo {
+    width: 100%;
+}
+
+.main-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.advantages {
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.fast, .cool, .exp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.box {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    background-color: #faf7f4;
+    color: #000;
+    position: relative;
+    height: 400px;
+}
+
+.card + .card {
+    margin-top: 30px;
+}
+
+.card-left, .card-right {
+    padding: 50px 40px 50px 80px;
+}
+
+.card-left, .card-right {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.card-right {
+    padding-right: 80px;
+}
+
+.card-line {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    width:1px;
+    height: 60%;
+    background-color: #cac7c5;
+    box-shadow: -1px -6px 5px #cac7c5;
+    filter: blur(1px);
+}
+
+.card-right img {
+    width: 100%;
+}
+
+.link-to {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.button-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.link-to-button {
+    border: 0;
+    outline: none;
+    font-weight: 700;
+    font-size: 16px;
+    width: 40%;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.link-to-button + .link-to-button {
+    margin-left: 20px;
+}
+
+.card h2 {
+    margin: 0;
+}
+
+.photo-news {
+    margin-top: 50px;
+}
+
+.all-news {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row + .form-row {
+    margin-top: 10px;
+}
+
+.form-input {
+    max-width: 40%;
+    border: 1px solid #000;
+    padding: 10px 10px;
+}
+
+.form-input::placeholder {
+    color: #000;
+    font-weight: 700;
+}
+
+.send {
+    display: block;
+    width: 100%;
+    margin-top: 17px;
+}
+.address, .add, .time, .contact-form {
+    margin-top: 30px;
+}
